@@ -95,6 +95,7 @@ $mensagem = $obj->selecionarFrase();
 $token = $obj->selecionarToken();
 $tel= $obj->selecionarTelefone();
 
+var_dump($mensagem,$token,$tel);
 var_dump($obj->enviarMensagem($mensagem, $token, $tel));
 
 ?>
